@@ -1,0 +1,44 @@
+2022-04-28 13:15:48,973 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Execution Started
+2022-04-28 13:15:49,015 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Instantiation of common Utils
+2022-04-28 13:15:49,015 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Loading the properties file
+2022-04-28 13:15:49,016 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Checking the driver is null or not
+2022-04-28 13:15:49,016 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Driver is NULL. Instantiating it
+2022-04-28 13:15:50,424 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launchingchrome
+2022-04-28 13:16:35,285 [INFO ] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] User successfully logged in and is in Home page
+2022-04-28 13:16:37,567 [INFO ] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] the user clicks on the time option from the menu
+2022-04-28 13:16:37,697 [INFO ] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] the user enters the name as John Smith
+2022-04-28 13:16:48,534 [ERROR] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: btnView
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7954U5L', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+2022-04-28 13:27:02,836 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Execution Started
+2022-04-28 13:27:02,838 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Instantiation of common Utils
+2022-04-28 13:27:02,838 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Loading the properties file
+2022-04-28 13:27:02,838 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Checking the driver is null or not
+2022-04-28 13:27:02,838 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Driver is NULL. Instantiating it
+2022-04-28 13:27:03,149 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launchingchrome
+2022-04-28 13:27:40,188 [INFO ] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] User successfully logged in and is in Home page
+2022-04-28 13:27:42,352 [INFO ] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] the user clicks on the time option from the menu
+2022-04-28 13:27:42,470 [INFO ] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] the user enters the name as John Smith
+2022-04-28 13:28:08,957 [ERROR] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnView"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7954U5L', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b071745bb5634de9677d014986d1003, findElement {using=id, value=btnView}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:6289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6289/devtool..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b071745bb5634de9677d014986d1003
+2022-04-28 13:28:09,217 [INFO ] com.lao.step_definitions.Verify_Pending_Timesheets_step_def [main] the user should see the message as No Timesheets Found
+2022-04-28 14:11:03,140 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Execution Started
+2022-04-28 14:11:03,142 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Instantiation of common Utils
+2022-04-28 14:11:03,142 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Loading the properties file
+2022-04-28 14:11:03,145 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Checking the driver is null or not
+2022-04-28 14:11:03,145 [INFO ] com.lao.step_definitions.Common_Step_Def [main] Driver is NULL. Instantiating it
+2022-04-28 14:11:03,438 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launchingchrome
+2022-04-28 14:11:40,220 [ERROR] com.lao.step_definitions.VerifyCEOName_Step_def [main] org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Directory
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-7954U5L', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
